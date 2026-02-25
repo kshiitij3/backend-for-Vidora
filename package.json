@@ -1,0 +1,17 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "backend of the video player ",
+  "keywords": [
+    "javascript",
+    "backend",
+    "kshitij"
+  ],
+  "license": "ISC",
+  "author": "kshitij shendkar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
