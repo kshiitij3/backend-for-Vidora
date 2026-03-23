@@ -1,1 +1,1 @@
-export const DB_NAME = "vidora";
+export const DB_NAME = "MediQueue";

@@ -9,4 +9,9 @@ const app = express();
   app.use(express.json({limit:"16kb"}))
   app.use(express.urlencoded({extended: true,limit:"16kb"}))
   app.use(express.static("public"))
-export default app;
+
+  //routes
+  import userRouter from './routes/user.routes.js'
+  //declaration of userRouter
+   app.use("/api/v1/user",userRouter)
+export  {app};
